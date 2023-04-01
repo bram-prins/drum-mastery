@@ -1,0 +1,49 @@
+Sibelius:
+
+Open Untitled.sib
+Zoom 89%
+Neem een screenshot met behulp van een bestaande image, 111 hoog, breedte afhankelijk van soort ritme (vergelijk met hetzelfde soort ritme). Breedte kun je beinvloeden met aantal bars en met beginpunt van de regel.
+
+
+
+Reaper:
+
+1. Start Reaper
+2. Insert > Virtual Instrument on New Track
+3> MT Power Drumkit
+4. Kies 'Nee' bij de optie voor meerdere tracks
+5. Skip >
+6. Pak een basic groove en sleep hem in je track view
+7. Zet bpm op 80 (in het balkje onder de track view)
+8. Dubbelklik op je audiotrack om in de editor te komen
+9. Druk linksbovenin op Named notes view
+10. Druk in het grijze stukje daaronder op rechtermuisknop > File > Note/CC names > Load note/CC names from file > C:\Users\BramPrins\Documents\MTPDK-2.0.9-VST-64bit-Win-FULL\MIDI Mapping and drum map\Drum-Map for REAPER\MT-PowerDrumKit 2 Drum Map.txt
+
+Druk op Esc om de Editor te sluiten
+
+Audio opslaan: File > Render...
+- Directory: repos map
+- Naam
+- Output Format: MP3
+- Tail uitvinken
+- Render 1 file...
+
+Normale noten: 92 
+- Hi-Hat Closed 100, behalve 16en off-beat;
+- 8en op de Floor-tom maar 80;
+- Hi-hat pedal: 60
+- Ride Bell: 112
+- Ghost notes: Hi-hat/Ride: 30; Snare: 20;
+- Accenten: Hi-hat/ride: 120; Snare: 96/100;
+- Rim hits: 50 (side-stick);
+- 32nd notes op bass: 55;
+
+=> Selecteer een noot + Cntrl+F2 om van de individuele noot het volume te veranderen
+
+Flams: 
+- zet Grid (onderin) op 1/64
+- zoom in door te scrollen
+- plaats er 1 op de tel en 1 een half vakje erna
+
+Triplets:
+- zet Grid (onderin) op 1/12 of 1/24

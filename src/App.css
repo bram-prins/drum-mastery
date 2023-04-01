@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Cookie|Lato|Montserrat&display=swap");
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Lato', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a, a:active, a:visited {
+    color: white;
+    text-decoration: none
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+header {
+    flex: 0 1 70px;
+    line-height: 70px;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-body {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+nav {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    margin: 10px 10px 0 10px;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+footer {
+    flex: 0 1 auto;
+    background-color: black;
+    color: white;
+    padding: 7px;
 }

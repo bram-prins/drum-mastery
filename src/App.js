@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Pages/Home'
+import Introduction from './Pages/Introduction'
+import ExercisePage from './Pages/ExercisePage';
+import Footer from './Components/Footer'
+import { Route, Routes, NavLink } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <div className="app">
+            <header className="app-header">
+                <NavLink to="/">
+                    <h1>DrumMastery.net</h1>
+                </NavLink>
+            </header>
+            <div className="app-body">
+                <nav>
+                    <NavLink to="/introduction">Introduction</NavLink>
+                    <NavLink to="/beats1">Beats 1</NavLink>
+                </nav>
+                <div>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/introduction" element={<Introduction />} />
+                        <Route path="/beats1" element={<ExercisePage />} />
+                    </Routes>
+                </div>
+            </div>
+            <Footer />
+        </div>
+    );
 }
-
-export default App;
