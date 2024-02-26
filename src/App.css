@@ -12,7 +12,31 @@ body {
 
 a, a:active, a:visited {
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p, button {
+    font-size: 18px;
+}
+
+span {
+    font-size: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+}
+
+button:hover {
+    filter: brightness(50%);
+    cursor: pointer;
 }
 
 .app {
@@ -22,37 +46,85 @@ a, a:active, a:visited {
 }
 
 header {
-    flex: 0 1 70px;
-    line-height: 70px;
-    text-align: center;
-    background-color: black;
+    flex: 0 1 100px;
+    background-image: linear-gradient(to bottom right, red, #410000);
     color: white;
+}
+
+header button {
+    width: 40px;
+}
+
+.app.expand-menu header button {
+    width: 220px;
 }
 
 .app-body {
     flex: 1 1 auto;
-    display: flex;
+    position: relative;
+    align-content: center;
 }
 
 nav {
-    align-self: stretch;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 220px;
+    margin-right: 12px;
     display: flex;
     flex-direction: column;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+    visibility: hidden;
+}
+
+.app.expand-menu nav {
+    visibility: visible;
 }
 
 nav a {
-    margin: 10px 10px 0 10px;
+    margin: 16px 16px 0 16px;
 }
 
 nav a.active {
     font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+}
+
+.page {
+    width: 90%;
+    margin: 24px auto;
+}
+
+.app.expand-menu .page {
+    margin: 24px auto;
+    position: relative;
+    left: 220px;
 }
 
 footer {
     flex: 0 1 auto;
-    background-color: black;
+    background-color: #410000;
     color: white;
     padding: 7px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .app.expand-menu .page {
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .page {
+        zoom: 90%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .page {
+        zoom: 80%;
+    }
 }

@@ -1,6 +1,7 @@
 import './AudioPlayer.css'
 import audio from '../Audio'
 import { useState } from 'react'
+import { FaPlay, FaStop } from 'react-icons/fa'
 
 export default function AudioPlayer(props) {
     const [playing, setPlaying] = useState(false)
@@ -41,8 +42,8 @@ export default function AudioPlayer(props) {
     
     if (playing) {
         return (
-            <div>
-                <button onClick={play}>STOP</button>
+            <div className="audio-player">
+                <button onClick={play}><FaStop /></button>
                 <span>&nbsp;| BPM&nbsp;</span>
                 <button 
                     onMouseDown={() => {
@@ -64,6 +65,8 @@ export default function AudioPlayer(props) {
             </div>
         )
     } else {
-        return <div><button onClick={play}>PLAY</button></div>
+        return (
+            <div className="audio-player"><button onClick={play}><FaPlay /></button></div>
+        )
     }
 }

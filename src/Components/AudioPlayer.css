@@ -1,5 +1,7 @@
-button:hover {
-    background-color:black;
-    color:white;
-    cursor: pointer;
+.audio-player {
+    margin: 8px 0;
+    padding: 8px;
+    background-image: linear-gradient(red, #410000);
+    color: white;
+    min-width: 50px;
 }

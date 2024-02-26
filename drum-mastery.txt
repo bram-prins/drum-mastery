@@ -1,0 +1,51 @@
+- make exercises.json
+- descriptions in ExercisePage.js
+- Render all exercise pages
+- styling: hamburger button; audioplayer; menu swipebaar en animatie bij in uitklappen; etc
+- dark mode
+- logo
+- content for Home page, Introduction, About, Contact
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vVrX1SNbQHA?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+https://www.youtube.com/watch?v=b9eMGE7QtTk
+https://www.youtube.com/watch?v=SLfhMt5OUPI
+
+
+6.23
+6.24
+6.36
+9.15 maken
+
+
+Kaal basisritme:
+Fills 6.23
+Fills 6.36
+fills 6.40
+9.15
+
+Shuffle:
+Fills 4.*
+Fills 5.49 t/m 52
+6.42
+7.20
+7.21
+8.29
+8.30
+8.31
+8.34
+9.18
+9.27
+10.5 t/m 10.7
+
+Kale shuffle
+fills 6.24
+
+
+
+
+https://www.geeksforgeeks.org/how-to-concatenate-audio-files-in-python/

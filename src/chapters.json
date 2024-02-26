@@ -1,0 +1,99 @@
+[
+    {
+        "name": "Beats 1",
+        "link": "beats1",
+        "count": 14,
+        "description": "8th note beats",
+        "bonus": 0,
+        "songs": null,
+        "notes": null
+    },
+    {
+        "name": "Fills 1",
+        "link": "fills1",
+        "description": "16th note fills",
+        "count": 14,
+        "bonus": 0,
+        "songs": null,
+        "notes": null
+    },
+    {
+        "name": "Beats 2",
+        "link": "beats2",
+        "description": "4th and 16th note beats",
+        "count": 14,
+        "bonus": 0,
+        "songs": null,
+        "notes": null
+    },
+    {
+        "name": "Fills 2",
+        "link": "fills2",
+        "description": "8th note fills",
+        "count": 19,
+        "bonus": 0,
+        "songs": [
+            {
+                "exercise": "10",
+                "embed": "https://www.youtube-nocookie.com/embed/ulRXvH8VOl8?start=89"
+            }
+        ],
+        "notes": [
+            {
+                "exercise": "5",
+                "html": "Tip: Try playing this fill with RL-flams and also LR-flams!"
+            },
+            {
+                "exercise": "7",
+                "html": "Note: Hit the open hi-hat with your left hand."
+            }
+        ]
+    },
+    {
+        "name": "Beats 3",
+        "link": "beats3",
+        "description": "4th and 16th note beats",
+        "count": 21,
+        "bonus": 3,
+        "songs": [
+            {
+                "exercise": "1",
+                "embed": "https://www.youtube-nocookie.com/embed/tsTH9TpxU_Y"
+            },
+            {
+                "exercise": "5",
+                "embed": "https://www.youtube-nocookie.com/embed/yGxHDmHoqXc"
+            },
+            {
+                "exercise": "6",
+                "embed": "https://www.youtube-nocookie.com/embed/I2iR5JYOPPo"
+            },
+            {
+                "exercise": "7",
+                "embed": "https://www.youtube-nocookie.com/embed/TpohVYomw2o"
+            },
+            {
+                "exercise": "9",
+                "embed": "https://www.youtube-nocookie.com/embed/SQrKCytWbj8"
+            },
+            {
+                "exercise": "12",
+                "embed": "https://www.youtube-nocookie.com/embed/fZheUzgIFEk"
+            },
+            {
+                "exercise": "14",
+                "embed": "https://www.youtube-nocookie.com/embed/Jrprk5dNboI"
+            }
+        ],
+        "notes": [
+            {
+                "exercise": "16",
+                "html": "Note: You're playing the ride."
+            },
+            {
+                "exercise": "Bonus1",
+                "html": "Note: Open ride note = ride bell"
+            }
+        ]
+    }
+]
